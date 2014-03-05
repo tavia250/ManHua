@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9669DE5218C6D3E2008DE838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669DE5118C6D3E2008DE838 /* Foundation.framework */; };
+		9669DE5418C6D3E2008DE838 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669DE5318C6D3E2008DE838 /* CoreGraphics.framework */; };
+		9669DE5618C6D3E2008DE838 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669DE5518C6D3E2008DE838 /* UIKit.framework */; };
+		9669DE5C18C6D3E2008DE838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9669DE5A18C6D3E2008DE838 /* InfoPlist.strings */; };
+		9669DE5E18C6D3E2008DE838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9669DE5D18C6D3E2008DE838 /* main.m */; };
+		9669DE6218C6D3E2008DE838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9669DE6118C6D3E2008DE838 /* AppDelegate.m */; };
+		9669DE6518C6D3E2008DE838 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9669DE6318C6D3E2008DE838 /* Main_iPhone.storyboard */; };
+		9669DE6818C6D3E2008DE838 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9669DE6618C6D3E2008DE838 /* Main_iPad.storyboard */; };
+		9669DE6B18C6D3E2008DE838 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9669DE6A18C6D3E2008DE838 /* FirstViewController.m */; };
+		9669DE6E18C6D3E2008DE838 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9669DE6D18C6D3E2008DE838 /* SecondViewController.m */; };
+		9669DE7018C6D3E2008DE838 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9669DE6F18C6D3E2008DE838 /* Images.xcassets */; };
+		9669DE7718C6D3E2008DE838 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669DE7618C6D3E2008DE838 /* XCTest.framework */; };
+		9669DE7818C6D3E2008DE838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669DE5118C6D3E2008DE838 /* Foundation.framework */; };
+		9669DE7918C6D3E2008DE838 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669DE5518C6D3E2008DE838 /* UIKit.framework */; };
+		9669DE8118C6D3E2008DE838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9669DE7F18C6D3E2008DE838 /* InfoPlist.strings */; };
+		9669DE8318C6D3E2008DE838 /* ManHuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9669DE8218C6D3E2008DE838 /* ManHuaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9669DE7A18C6D3E2008DE838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9669DE4618C6D3E2008DE838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9669DE4D18C6D3E2008DE838;
+			remoteInfo = ManHua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9669DE4E18C6D3E2008DE838 /* ManHua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManHua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9669DE5118C6D3E2008DE838 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9669DE5318C6D3E2008DE838 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9669DE5518C6D3E2008DE838 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9669DE5918C6D3E2008DE838 /* ManHua-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManHua-Info.plist"; sourceTree = "<group>"; };
+		9669DE5B18C6D3E2008DE838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9669DE5D18C6D3E2008DE838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9669DE5F18C6D3E2008DE838 /* ManHua-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManHua-Prefix.pch"; sourceTree = "<group>"; };
+		9669DE6018C6D3E2008DE838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9669DE6118C6D3E2008DE838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9669DE6418C6D3E2008DE838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9669DE6718C6D3E2008DE838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9669DE6918C6D3E2008DE838 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9669DE6A18C6D3E2008DE838 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9669DE6C18C6D3E2008DE838 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9669DE6D18C6D3E2008DE838 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9669DE6F18C6D3E2008DE838 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9669DE7518C6D3E2008DE838 /* ManHuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManHuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9669DE7618C6D3E2008DE838 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9669DE7E18C6D3E2008DE838 /* ManHuaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManHuaTests-Info.plist"; sourceTree = "<group>"; };
+		9669DE8018C6D3E2008DE838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9669DE8218C6D3E2008DE838 /* ManHuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManHuaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9669DE4B18C6D3E2008DE838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9669DE5418C6D3E2008DE838 /* CoreGraphics.framework in Frameworks */,
+				9669DE5618C6D3E2008DE838 /* UIKit.framework in Frameworks */,
+				9669DE5218C6D3E2008DE838 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9669DE7218C6D3E2008DE838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9669DE7718C6D3E2008DE838 /* XCTest.framework in Frameworks */,
+				9669DE7918C6D3E2008DE838 /* UIKit.framework in Frameworks */,
+				9669DE7818C6D3E2008DE838 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9669DE4518C6D3E2008DE838 = {
+			isa = PBXGroup;
+			children = (
+				9669DE5718C6D3E2008DE838 /* ManHua */,
+				9669DE7C18C6D3E2008DE838 /* ManHuaTests */,
+				9669DE5018C6D3E2008DE838 /* Frameworks */,
+				9669DE4F18C6D3E2008DE838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9669DE4F18C6D3E2008DE838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9669DE4E18C6D3E2008DE838 /* ManHua.app */,
+				9669DE7518C6D3E2008DE838 /* ManHuaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9669DE5018C6D3E2008DE838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9669DE5118C6D3E2008DE838 /* Foundation.framework */,
+				9669DE5318C6D3E2008DE838 /* CoreGraphics.framework */,
+				9669DE5518C6D3E2008DE838 /* UIKit.framework */,
+				9669DE7618C6D3E2008DE838 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9669DE5718C6D3E2008DE838 /* ManHua */ = {
+			isa = PBXGroup;
+			children = (
+				9669DE6018C6D3E2008DE838 /* AppDelegate.h */,
+				9669DE6118C6D3E2008DE838 /* AppDelegate.m */,
+				9669DE6318C6D3E2008DE838 /* Main_iPhone.storyboard */,
+				9669DE6618C6D3E2008DE838 /* Main_iPad.storyboard */,
+				9669DE6918C6D3E2008DE838 /* FirstViewController.h */,
+				9669DE6A18C6D3E2008DE838 /* FirstViewController.m */,
+				9669DE6C18C6D3E2008DE838 /* SecondViewController.h */,
+				9669DE6D18C6D3E2008DE838 /* SecondViewController.m */,
+				9669DE6F18C6D3E2008DE838 /* Images.xcassets */,
+				9669DE5818C6D3E2008DE838 /* Supporting Files */,
+			);
+			path = ManHua;
+			sourceTree = "<group>";
+		};
+		9669DE5818C6D3E2008DE838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9669DE5918C6D3E2008DE838 /* ManHua-Info.plist */,
+				9669DE5A18C6D3E2008DE838 /* InfoPlist.strings */,
+				9669DE5D18C6D3E2008DE838 /* main.m */,
+				9669DE5F18C6D3E2008DE838 /* ManHua-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9669DE7C18C6D3E2008DE838 /* ManHuaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9669DE8218C6D3E2008DE838 /* ManHuaTests.m */,
+				9669DE7D18C6D3E2008DE838 /* Supporting Files */,
+			);
+			path = ManHuaTests;
+			sourceTree = "<group>";
+		};
+		9669DE7D18C6D3E2008DE838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9669DE7E18C6D3E2008DE838 /* ManHuaTests-Info.plist */,
+				9669DE7F18C6D3E2008DE838 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9669DE4D18C6D3E2008DE838 /* ManHua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9669DE8618C6D3E2008DE838 /* Build configuration list for PBXNativeTarget "ManHua" */;
+			buildPhases = (
+				9669DE4A18C6D3E2008DE838 /* Sources */,
+				9669DE4B18C6D3E2008DE838 /* Frameworks */,
+				9669DE4C18C6D3E2008DE838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManHua;
+			productName = ManHua;
+			productReference = 9669DE4E18C6D3E2008DE838 /* ManHua.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9669DE7418C6D3E2008DE838 /* ManHuaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9669DE8918C6D3E2008DE838 /* Build configuration list for PBXNativeTarget "ManHuaTests" */;
+			buildPhases = (
+				9669DE7118C6D3E2008DE838 /* Sources */,
+				9669DE7218C6D3E2008DE838 /* Frameworks */,
+				9669DE7318C6D3E2008DE838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9669DE7B18C6D3E2008DE838 /* PBXTargetDependency */,
+			);
+			name = ManHuaTests;
+			productName = ManHuaTests;
+			productReference = 9669DE7518C6D3E2008DE838 /* ManHuaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9669DE4618C6D3E2008DE838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = jason;
+				TargetAttributes = {
+					9669DE7418C6D3E2008DE838 = {
+						TestTargetID = 9669DE4D18C6D3E2008DE838;
+					};
+				};
+			};
+			buildConfigurationList = 9669DE4918C6D3E2008DE838 /* Build configuration list for PBXProject "ManHua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9669DE4518C6D3E2008DE838;
+			productRefGroup = 9669DE4F18C6D3E2008DE838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9669DE4D18C6D3E2008DE838 /* ManHua */,
+				9669DE7418C6D3E2008DE838 /* ManHuaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9669DE4C18C6D3E2008DE838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9669DE6818C6D3E2008DE838 /* Main_iPad.storyboard in Resources */,
+				9669DE7018C6D3E2008DE838 /* Images.xcassets in Resources */,
+				9669DE6518C6D3E2008DE838 /* Main_iPhone.storyboard in Resources */,
+				9669DE5C18C6D3E2008DE838 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9669DE7318C6D3E2008DE838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9669DE8118C6D3E2008DE838 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9669DE4A18C6D3E2008DE838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9669DE6E18C6D3E2008DE838 /* SecondViewController.m in Sources */,
+				9669DE6218C6D3E2008DE838 /* AppDelegate.m in Sources */,
+				9669DE6B18C6D3E2008DE838 /* FirstViewController.m in Sources */,
+				9669DE5E18C6D3E2008DE838 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9669DE7118C6D3E2008DE838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9669DE8318C6D3E2008DE838 /* ManHuaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9669DE7B18C6D3E2008DE838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9669DE4D18C6D3E2008DE838 /* ManHua */;
+			targetProxy = 9669DE7A18C6D3E2008DE838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9669DE5A18C6D3E2008DE838 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9669DE5B18C6D3E2008DE838 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9669DE6318C6D3E2008DE838 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9669DE6418C6D3E2008DE838 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9669DE6618C6D3E2008DE838 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9669DE6718C6D3E2008DE838 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9669DE7F18C6D3E2008DE838 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9669DE8018C6D3E2008DE838 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9669DE8418C6D3E2008DE838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9669DE8518C6D3E2008DE838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9669DE8718C6D3E2008DE838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManHua/ManHua-Prefix.pch";
+				INFOPLIST_FILE = "ManHua/ManHua-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9669DE8818C6D3E2008DE838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManHua/ManHua-Prefix.pch";
+				INFOPLIST_FILE = "ManHua/ManHua-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9669DE8A18C6D3E2008DE838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManHua.app/ManHua";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManHua/ManHua-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ManHuaTests/ManHuaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9669DE8B18C6D3E2008DE838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManHua.app/ManHua";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManHua/ManHua-Prefix.pch";
+				INFOPLIST_FILE = "ManHuaTests/ManHuaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9669DE4918C6D3E2008DE838 /* Build configuration list for PBXProject "ManHua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9669DE8418C6D3E2008DE838 /* Debug */,
+				9669DE8518C6D3E2008DE838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9669DE8618C6D3E2008DE838 /* Build configuration list for PBXNativeTarget "ManHua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9669DE8718C6D3E2008DE838 /* Debug */,
+				9669DE8818C6D3E2008DE838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9669DE8918C6D3E2008DE838 /* Build configuration list for PBXNativeTarget "ManHuaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9669DE8A18C6D3E2008DE838 /* Debug */,
+				9669DE8B18C6D3E2008DE838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9669DE4618C6D3E2008DE838 /* Project object */;
+}
