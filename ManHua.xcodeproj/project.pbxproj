@@ -36,6 +36,11 @@
 		9669DEB118C6F73B008DE838 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9669DEA418C6F73B008DE838 /* TFHppleElement.m */; };
 		9669DEB218C6F73B008DE838 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9669DEA618C6F73B008DE838 /* XPathQuery.m */; };
 		9669DEB418C721AE008DE838 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9669DEB318C721AE008DE838 /* libxml2.dylib */; };
+		9693F56518EBF9820058DB11 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9693F56418EBF9820058DB11 /* ThirdViewController.m */; };
+		9693F56818EBF9FE0058DB11 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9693F56718EBF9FE0058DB11 /* FourthViewController.m */; };
+		9693F56B18EBFA400058DB11 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9693F56A18EBFA400058DB11 /* FifthViewController.m */; };
+		96DCD55E18FCCDA6002E5CD9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD55C18FCCDA6002E5CD9 /* Model.xcdatamodeld */; };
+		96DCD56218FD1F4A002E5CD9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DCD56118FD1F4A002E5CD9 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +102,14 @@
 		9669DEA518C6F73B008DE838 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		9669DEA618C6F73B008DE838 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		9669DEB318C721AE008DE838 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		9693F56318EBF9820058DB11 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		9693F56418EBF9820058DB11 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		9693F56618EBF9FE0058DB11 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		9693F56718EBF9FE0058DB11 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		9693F56918EBFA400058DB11 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		9693F56A18EBFA400058DB11 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		96DCD55D18FCCDA6002E5CD9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		96DCD56118FD1F4A002E5CD9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DCD56218FD1F4A002E5CD9 /* CoreData.framework in Frameworks */,
 				9669DEB418C721AE008DE838 /* libxml2.dylib in Frameworks */,
 				9669DE5418C6D3E2008DE838 /* CoreGraphics.framework in Frameworks */,
 				9669DE5618C6D3E2008DE838 /* UIKit.framework in Frameworks */,
@@ -146,6 +160,7 @@
 		9669DE5018C6D3E2008DE838 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96DCD56118FD1F4A002E5CD9 /* CoreData.framework */,
 				9669DEB318C721AE008DE838 /* libxml2.dylib */,
 				9669DE5118C6D3E2008DE838 /* Foundation.framework */,
 				9669DE5318C6D3E2008DE838 /* CoreGraphics.framework */,
@@ -162,10 +177,17 @@
 				9669DE6118C6D3E2008DE838 /* AppDelegate.m */,
 				9669DE6318C6D3E2008DE838 /* Main_iPhone.storyboard */,
 				9669DE6618C6D3E2008DE838 /* Main_iPad.storyboard */,
+				96DCD55C18FCCDA6002E5CD9 /* Model.xcdatamodeld */,
 				9669DE6918C6D3E2008DE838 /* FirstViewController.h */,
 				9669DE6A18C6D3E2008DE838 /* FirstViewController.m */,
 				9669DE6C18C6D3E2008DE838 /* SecondViewController.h */,
 				9669DE6D18C6D3E2008DE838 /* SecondViewController.m */,
+				9693F56318EBF9820058DB11 /* ThirdViewController.h */,
+				9693F56418EBF9820058DB11 /* ThirdViewController.m */,
+				9693F56618EBF9FE0058DB11 /* FourthViewController.h */,
+				9693F56718EBF9FE0058DB11 /* FourthViewController.m */,
+				9693F56918EBFA400058DB11 /* FifthViewController.h */,
+				9693F56A18EBFA400058DB11 /* FifthViewController.m */,
 				9669DE8C18C6F73B008DE838 /* AFNetworking */,
 				9669DEA018C6F73B008DE838 /* XPath */,
 				9669DE6F18C6D3E2008DE838 /* Images.xcassets */,
@@ -344,9 +366,13 @@
 				9669DEAB18C6F73B008DE838 /* AFSecurityPolicy.m in Sources */,
 				9669DEB218C6F73B008DE838 /* XPathQuery.m in Sources */,
 				9669DE6218C6D3E2008DE838 /* AppDelegate.m in Sources */,
+				9693F56B18EBFA400058DB11 /* FifthViewController.m in Sources */,
 				9669DEB018C6F73B008DE838 /* TFHpple.m in Sources */,
 				9669DEA818C6F73B008DE838 /* AFHTTPRequestOperationManager.m in Sources */,
+				96DCD55E18FCCDA6002E5CD9 /* Model.xcdatamodeld in Sources */,
+				9693F56818EBF9FE0058DB11 /* FourthViewController.m in Sources */,
 				9669DEAC18C6F73B008DE838 /* AFURLConnectionOperation.m in Sources */,
+				9693F56518EBF9820058DB11 /* ThirdViewController.m in Sources */,
 				9669DEA718C6F73B008DE838 /* AFHTTPRequestOperation.m in Sources */,
 				9669DE6B18C6D3E2008DE838 /* FirstViewController.m in Sources */,
 				9669DEAD18C6F73B008DE838 /* AFURLRequestSerialization.m in Sources */,
@@ -446,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -500,6 +526,7 @@
 					"${SDK_ROOT}/usr/include/libxml2\n\n${SDK_ROOT}/usr/include/libxml2\n\n${SDK_ROOT}/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "ManHua/ManHua-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -518,6 +545,7 @@
 					"${SDK_ROOT}/usr/include/libxml2\n\n${SDK_ROOT}/usr/include/libxml2\n\n${SDK_ROOT}/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "ManHua/ManHua-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -584,6 +612,7 @@
 				9669DE8818C6D3E2008DE838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9669DE8918C6D3E2008DE838 /* Build configuration list for PBXNativeTarget "ManHuaTests" */ = {
 			isa = XCConfigurationList;
@@ -592,8 +621,22 @@
 				9669DE8B18C6D3E2008DE838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96DCD55C18FCCDA6002E5CD9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96DCD55D18FCCDA6002E5CD9 /* Model.xcdatamodel */,
+			);
+			currentVersion = 96DCD55D18FCCDA6002E5CD9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9669DE4618C6D3E2008DE838 /* Project object */;
 }
