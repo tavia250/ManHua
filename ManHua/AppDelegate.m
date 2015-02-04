@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "curl/curl.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation

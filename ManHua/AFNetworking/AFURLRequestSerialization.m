@@ -287,7 +287,6 @@ NSArray * AFQueryStringPairsFromKeyAndValue(NSString *key, id value) {
     mutableRequest.HTTPShouldUsePipelining = self.HTTPShouldUsePipelining;
     mutableRequest.networkServiceType = self.networkServiceType;
     mutableRequest.timeoutInterval = self.timeoutInterval;
-
     mutableRequest = [[self requestBySerializingRequest:mutableRequest withParameters:parameters error:error] mutableCopy];
 
 	return mutableRequest;
